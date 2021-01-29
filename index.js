@@ -1659,7 +1659,7 @@ client.on('group-participants-update', async (anu) => {
 						fs.unlinkSync(media)
 						if (err) return reply(ind.stikga())
 						buffer = fs.readFileSync(ran)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: ' *Nohh, bilang apa coba ama bot:D* '})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: ' *Nohh, bilang apa coba ama bot:v* '})
 						fs.unlinkSync(ran)
 					})
 					await limitAdd(sender)
